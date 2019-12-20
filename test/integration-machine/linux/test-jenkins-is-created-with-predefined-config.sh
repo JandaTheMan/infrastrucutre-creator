@@ -39,4 +39,4 @@ function test_jenkins_is_created_with_test_job() {
     bash ${INTEGRATION_MACHINE_LINUX}/build_scripts/stop_jenkins_server.sh
 }
 
-source ./shunit2/shunit2
+source ${INFRASTRUCTURE_CREATOR_ROOT}/test/shunit2/shunit2
